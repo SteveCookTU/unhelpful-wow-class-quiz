@@ -242,7 +242,8 @@ const fn build_tree() -> Tree {
     nodes[59] = node!("Druid (Feral)");
     nodes[60] = node!(
         "Did you ever have a phase where you were really into norse mythology?",
-        ("Yes", 61)
+        ("Yes", 61),
+        ("No", 62)
     );
     nodes[61] = node!("Death Knight (Frost)");
     nodes[62] = node!("Are you okay?", ("Yep", 63), ("No :(", 64));
