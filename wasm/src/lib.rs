@@ -96,7 +96,8 @@ const fn build_tree() -> Tree {
     nodes[5] = node!("Hunter (Survival)");
     nodes[6] = node!(
         "Do you want to make the ladies wet? (with water)",
-        ("Hell yeah", 7)
+        ("Hell yeah", 7),
+        ("Nah", 8)
     );
     nodes[7] = node!("Shaman (Resto)");
     nodes[8] = node!(
